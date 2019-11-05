@@ -31,7 +31,6 @@ void Mau(int n, char cl[20]){
     case 11:strcpy(cl,"gray");break;
 
     
-       
     };
     
     
