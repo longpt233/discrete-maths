@@ -28,7 +28,7 @@ void Mau(int n, char cl[20]){
     case 8:strcpy(cl,"purple1");break;
     case 9:strcpy(cl,"gold1");break;
     case 10:strcpy(cl,"blue");break;
-    case 11:strcpy(cl,"gray");break;
+    case 11:strcpy(cl,"gray");break;  // the thoi thay 10 dinh hay 20 dinh cung the ay ma ^^
 
     
     };
