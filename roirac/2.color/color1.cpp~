@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h> // thu vien chua file
 #include<string.h>
-#define MAX 50
+#define MAX 20
 
 using namespace std;
 
@@ -78,22 +78,14 @@ int main(){
             // tim mau[c] nho nhat thoa man , c chinh la ten dinh
            
         mau[i]=c;
-    }
+    };
   
-
-
-
- // test ok
- //if (Exist(1,2,A,m))  cout << "chuancmnl";
- //else cout <<"ngu r";
 
  cout<<"graph dothi\n{\n";
  
- for (int i = 1; i <= n; i++)
- {
-    //cl[20]=NULL;
+ for (int i = 1; i <= n; i++){
     Mau(mau[i],cl);
-  //strcpy(cl,"snow"); 
+   
     cout<<i<<" [fillcolor=" << cl <<", style=filled];\n ";
  }
  for (int i = 0; i < m; i++)
